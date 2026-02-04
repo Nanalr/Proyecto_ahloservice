@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #se agrega la aplicacion servicios
     'servicios.apps.ServiciosConfig',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
